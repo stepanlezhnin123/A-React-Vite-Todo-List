@@ -1,0 +1,74 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Align items at the top */
+  align-items: center; /* Center items horizontally */
+  height: 100vh; /* Full viewport height */
+  text-align: center;
+  padding-top: 20px; /* Add some padding at the top if needed */
+}
+
+.title, .title-input {
+  color: rgb(83, 112, 192);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+}
+
+.input {
+  padding: 10px;
+  margin: 30px;
+  font-size: 20px;
+  width: 500px; /* Set the desired width */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.add-todo {
+  padding: 0;
+  font-size: 20px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 600px; /* Adjust as needed */
+}
+
+.todo-list {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  margin: 10px;
+}
+
+.delete-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: red;
+  font-size: 10px;
+  padding: 20px
+}
+
+.todo-list {
+  display: flex; /* Use flexbox for alignment */
+  align-items: center; /* Center items vertically */
+  justify-content: center; /* Center items horizontally */
+  margin: 10px; /* Add spacing between items */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-check-input {
+  transform: scale(1.5); /* Scale the checkbox */
+  margin-right: 10px; /* Add spacing between checkbox and label */
+  vertical-align: middle; /* Align checkbox with the middle of the text */
+  margin: 20px;
+}
+
+.form-check-label {
+  font-size: 30px; /* Adjust text size */
+  line-height: 1.2; /* Match the line height to ensure proper alignment */
+}
